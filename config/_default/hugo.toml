@@ -1,0 +1,23 @@
+# サイトのベースURLを指定。ルートパスを使用
+baseURL = "/"
+
+# サイトの言語コードを日本語に設定
+languageCode = "ja"
+
+# コンテンツのデフォルト言語を日本語に設定
+defaultContentLanguage = "ja"
+
+# 使用するHugoのテーマを指定（Blowfishテーマ）
+theme = "blowfish"
+
+[frontmatter]
+# ページの最終更新日時を取得する方法を指定
+# :git - Gitの最終コミット日時
+# :fileModTime - ファイルの最終更新日時
+# :default - デフォルトの最終更新日時
+lastmod = [":git", ":fileModTime", ":default"]
+
+[outputs]
+# ホームページの出力形式を指定
+# HTMLページ、RSSフィード、JSONを出力
+home = ["HTML", "RSS", "JSON"]

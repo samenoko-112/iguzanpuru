@@ -1,0 +1,84 @@
+# サイト全体の配色スキームを指定（Blowfishテーマの設定を使用）
+colorScheme = "blowfish"
+
+# 検索機能を有効化
+enableSearch = true
+
+# デフォルトの背景画像を指定
+defaultBackgroundImage = "img/background.jpg"
+
+# デフォルトの注目（フィーチャー）画像を指定
+defaultFeaturedImage = "img/background.svg"
+
+# コードブロックの「コピー」ボタンを有効化
+enableCodeCopy = true
+
+# 画像の最適化を無効化しない（最適化は有効）
+disableImageOptimization = false
+
+# 画像ズーム機能を無効化
+disableImageZoom = false
+
+[header]
+# ヘッダーのレイアウトを固定に設定
+layout = "fixed"
+
+[homepage]
+# ホームページのレイアウトを背景画像スタイルに設定
+layout = "background"
+
+# ホームページの背景画像を指定
+homepageImage = "img/background.jpg"
+
+# ホームページに最近の投稿を表示
+showRecent = true
+
+# 「さらに見る」リンクを表示
+showMoreLink = true
+
+# ホームページをカードビューで表示
+cardView = true
+
+# ホームページの背景にブラー（ぼかし）効果を適用
+layoutBackgroundBlur = true
+
+[article]
+# 記事ページに日付を表示
+showDate = true
+
+# ヒーロー画像を表示
+showHero = true
+
+# ヒーロー画像を背景として表示
+heroStyle = "background"
+
+# 更新日を表示しない
+showDateUpdated = false
+
+# 読了時間を表示
+showReadingTime = true
+
+# 記事ページに目次を表示
+showTableOfContents = true
+
+# 記事ページにタクソノミー（カテゴリやタグ）を表示
+showTaxonomies = true
+
+# 文字数を表示しない
+showWordCount = false
+
+# 記事ページに共有リンクを表示（Twitter、Bluesky、Telegram）
+sharingLinks = ["twitter", "bluesky", "telegram"]
+
+# 記事ページの背景にブラー（ぼかし）効果を適用
+layoutBackgroundBlur = true
+
+# 記事ページに著者情報を表示
+showAuthor = true
+
+[list]
+# リストページにカードを表示
+showCards = true
+
+# リストページをカードビューで表示
+cardView = true

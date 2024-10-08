@@ -1,0 +1,39 @@
+# サイトのタイトルを指定
+title = "いぐざんぷる"
+
+# 言語コードを日本語に設定
+languageCode = "ja"
+
+# 言語名を日本語で指定
+languageName = "日本語"
+
+[params.author]
+# 著者情報を設定
+# 著者の名前
+name = "さめのこ"
+
+# 著者のアイコン画像のパス
+image = "img/blowfish_logo.png"
+
+# 著者の一言紹介
+headline = "ららら"
+
+# 著者の詳細な紹介文
+bio = "基本的に家の中にずっといる。"
+
+# 著者のリンク集（GitHubとTwitterのURLを指定）
+links = [
+    { github = "https://github.com/username" },
+    { twitter = "https://x.com/username" }
+]
+
+[params]
+# サイトに表示される言語名を指定
+displayName = "JA"
+
+# ISO形式の言語コードを指定
+isoCode = "ja"
+
+# 日付フォーマットを設定
+# 例: 2006年1月2日 15時04分
+dateFormat = "2006/01/02 15:04"
